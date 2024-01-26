@@ -1,0 +1,22 @@
+.container{
+    height: 100%;
+    padding: 2rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    p{
+        overflow-y: scroll;
+    }
+}
+
+.fav{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
